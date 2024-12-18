@@ -1,1 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>task 1</title>
+      <body>
+        <h1>Task </h1>
+        <p>tis is the first task to upload image add links</p>
 
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.udacity.com%2F&psig=AOvVaw2HH6Rr026A0O87DgaduNms&ust=1734612470193000&source=images&cd=vfe&opi=89978449&ved=0CAYQrpoMahcKEwjwkuyRrbGKAxUAAAAAHQAAAAAQBA">udacity.com</a><br>
+
+
+        <img src="https://imageio.forbes.com/specials-images/imageserve/66bee357cf48b97789cbc270/Where-Will-Artificial-Intelligence-Take-Us-In-The-Future-/960x0.jpg?format=jpg&width=1440">image for ai</img>
+      
+      </body>  
+    </head>
+</html>
