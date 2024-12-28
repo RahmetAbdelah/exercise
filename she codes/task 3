@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>task 1</title>
+      <style>
+        .one{
+          display:flex;
+          flex-direction:column;
+          width:fit-content;}
+        #two{
+          background-color:rgb(61, 23, 177);
+          text-align: center;
+          text-color: black;
+          width:300px;
+          border-radius: 7px;
+          border-width:1.5px;
+          padding:3px;
+          align-self: center;
+           }
+          
+       
+      </style>
+      <body>
+        <form>
+          <fieldset>
+            <legend>task 3</legend>
+          <div class="one">
+            <h1>personal  information</h1>
+            <label>full name</label>
+            <input type="text" placeholder="enter your full name"><br>
+            <label>email</label>
+            <input type="text" placeholder="enter your email"><br>
+            
+            <h2>account information</h2>
+            <label>username</label>
+            <input type="text" placeholder="username"><br>
+            <label>password</label>
+            <input type="password" placeholder="enter your password"><br>
+            <label>confirm password</label>
+            <input type="password" placeholder="confirm your password"><br>
+            
+            <button id="two">submmit</button>
+
+        
+        
+      </div>
+        
+       </fieldset>
+       </form>
+      </body>  
+    </head>
+</html><!DOCTYPE html>
+<html>
+    <head>
+      <title>task 1</title>
+      <style>
+        .one{
+          display:flex;
+          flex-direction:column;
+          width:fit-content;}
+        #two{
+          background-color:rgb(61, 23, 177);
+          text-align: center;
+          text-color: black;
+          width:300px;
+          border-radius: 7px;
+          border-width:1.5px;
+          padding:3px;
+          align-self: center;
+           }
+          
+       
+      </style>
+      <body>
+        <form>
+          <fieldset>
+            <legend>task 3</legend>
+          <div class="one">
+            <h1>personal  information</h1>
+            <label>full name</label>
+            <input type="text" placeholder="enter your full name"><br>
+            <label>email</label>
+            <input type="text" placeholder="enter your email"><br>
+            
+            <h2>account information</h2>
+            <label>username</label>
+            <input type="text" placeholder="username"><br>
+            <label>password</label>
+            <input type="password" placeholder="enter your password"><br>
+            <label>confirm password</label>
+            <input type="password" placeholder="confirm your password"><br>
+            
+            <button id="two">submmit</button>
+
+        
+        
+      </div>
+        
+       </fieldset>
+       </form>
+      </body>  
+    </head>
+</html>
