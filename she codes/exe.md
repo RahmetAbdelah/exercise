@@ -1,4 +1,7 @@
-'''mermaid
+
+``` mermaid
+
+graph TD;
     A[Start] --> B[Display Welcome Message]
     B --> C[Input: Full Name]
     C --> D{Valid Full Name?}
@@ -20,4 +23,5 @@
     E --> C
     I --> G
     P --> R
+
 
