@@ -1,4 +1,5 @@
-Start[Start Program] --> Init[Initialize Arrays and Variables]
+``` mermaid
+    Start[Start Program] --> Init[Initialize Arrays and Variables]
     Init --> Menu[Display Menu]
     Menu --> GetChoice[Get User Choice]
     GetChoice --> ValidateChoice{Is Choice Valid?}
