@@ -1,0 +1,52 @@
+/* Services Page Container */
+.services-page {
+  padding: var(--spacing-xxl) var(--spacing-md);
+  max-width: 1300px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, var(--bg-white) 0%, var(--secondary-color) 100%);
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.services-hero {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  animation: fadeIn 0.8s ease-out;
+}
+
+.services-hero h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: -0.5px;
+}
+
+.services-hero p {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  align-items: stretch;
+  animation: fadeIn 1s ease-out 0.2s both;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .services-page {
+    padding: var(--spacing-lg) var(--spacing-sm);
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+}
